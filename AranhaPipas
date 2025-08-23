@@ -129,8 +129,8 @@
   </main>
   <footer>
     <address class="info">
-      <p>📞 Telefone: (18) 99711-7725</p>
-      <p>📧 Email: crenatoatanasio@gmail.com</p>
+      <p>📞 Telefone: <a href="tel:+5518997117725">(18) 99711-7725</a></p>
+      <p>📧 Email: <a href="mailto:crenatoatanasio@gmail.com">crenatoatanasio@gmail.com</a></p>
       <p>📍 Localização: Birigui - Bairro Candeias</p>
     </address>
     <p>&copy; 2025 Aranha Pipas. Todos os direitos reservados.</p>
@@ -146,13 +146,12 @@
         { nome: 'Pipa de 70cm', preco: 10.00, id: 6 },
         { nome: 'Pipa de 80cm', preco: 12.00, id: 7 },
         { nome: 'Pipa de 90cm', preco: 15.00, id: 8 }
-      ];
-      
+      ];  
       const produtosContainer = document.getElementById('produtos-container');
       const cartItems = document.getElementById('cart-items');
       const cartTotal = document.getElementById('cart-total');
       const checkoutButton = document.querySelector('.checkout-button');
-      
+    
       let carrinho = [];
 
       function renderizarProdutos() {
